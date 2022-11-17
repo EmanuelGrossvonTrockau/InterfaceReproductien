@@ -12,7 +12,7 @@ struct ContentView: View {
         
         ZStack{
             
-            Color.yellow
+            Color.black
                 .ignoresSafeArea()
             
             
@@ -37,14 +37,46 @@ struct ContentView: View {
                         .foregroundColor(.orange)
                 }
                 Spacer()
+                HStack{
+                    Image("Apple Watch 2.0")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 200)
+                    
+                    Spacer()
+                }
+                
+                HStack{
+                    Text("Infograph")
+                        .foregroundColor(.white)
+                    Spacer()
+                }
+               Spacer()
+                    
+                
+                
+                
+                
+                
+            }
+                     
+                        
+                        
+                    
+               
+                    
+                    
+                
+            .padding()
             }
             
             
-            .padding()
+            
+            
         }
         
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
