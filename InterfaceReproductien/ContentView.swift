@@ -29,8 +29,14 @@ struct ContentView: View {
                         .foregroundColor(.white)
                     Spacer()
                 }
-                
-                
+                HStack{
+                    Text("My Faces")
+                        .foregroundColor(.white)
+                    Spacer()
+                    Text("Edit")
+                        .foregroundColor(.orange)
+                }
+                Spacer()
             }
             
             
